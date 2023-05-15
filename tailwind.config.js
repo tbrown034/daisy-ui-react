@@ -6,7 +6,11 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      minHeight: {
+        "1/2": "50%",
+      },
+    },
   },
   plugins: [require("daisyui")],
 };
