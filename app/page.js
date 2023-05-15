@@ -1,4 +1,5 @@
 import Carousel from "./Layout/Carousel";
+import Flow from "./Layout/Flow";
 import Hero from "./Layout/Hero";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <>
       <Hero />
       <Carousel />
+      <Flow />
     </>
   );
 }
