@@ -1,7 +1,11 @@
+import Carousel from "./Layout/Carousel";
+import Hero from "./Layout/Hero";
+
 export default function Home() {
   return (
     <>
-      <h1>hello world</h1>
+      <Hero />
+      <Carousel />
     </>
   );
 }
